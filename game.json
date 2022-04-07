@@ -1,0 +1,83 @@
+{
+	"width": 640,
+	"height": 640,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"chara": {
+			"type": "image",
+			"path": "image/chara.png",
+			"width": 32,
+			"height": 32
+		},
+		"c_06": {
+			"type": "image",
+			"path": "image/c_06.png",
+			"width": 16,
+			"height": 16
+		},
+		"b_01": {
+			"type": "image",
+			"path": "image/b_01.png",
+			"width": 32,
+			"height": 32
+		},
+		"b_02": {
+			"type": "image",
+			"path": "image/b_02.png",
+			"width": 32,
+			"height": 32
+		},
+		"b_03": {
+			"type": "image",
+			"path": "image/b_03.png",
+			"width": 32,
+			"height": 32
+		},
+		"b_04": {
+			"type": "image",
+			"path": "image/b_04.png",
+			"width": 32,
+			"height": 32
+		},
+		"b_05": {
+			"type": "image",
+			"path": "image/b_05.png",
+			"width": 32,
+			"height": 32
+		},
+		"b_06": {
+			"type": "image",
+			"path": "image/b_06.png",
+			"width": 32,
+			"height": 32
+		},
+		"c_05": {
+			"type": "image",
+			"path": "image/c_05.png",
+			"width": 16,
+			"height": 16
+		},
+		"c_07": {
+			"type": "image",
+			"path": "image/c_07.png",
+			"width": 16,
+			"height": 16
+		},
+		"c_08": {
+			"type": "image",
+			"path": "image/c_08.png",
+			"width": 16,
+			"height": 16
+		}
+	},
+	"moduleMainScripts": {},
+	"environment": {
+		"sandbox-runtime": "3"
+	}
+}
