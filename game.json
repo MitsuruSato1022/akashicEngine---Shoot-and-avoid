@@ -74,6 +74,12 @@
 			"path": "image/c_08.png",
 			"width": 16,
 			"height": 16
+		},
+		"c_01": {
+			"type": "image",
+			"path": "image/c_01.png",
+			"width": 8,
+			"height": 16
 		}
 	},
 	"moduleMainScripts": {},

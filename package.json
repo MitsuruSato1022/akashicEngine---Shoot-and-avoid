@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "",
+  "license": "MIT",
   "devDependencies": {
     "@akashic/akashic-cli-serve": "~1.11.0",
     "eslint": "7.7.0"

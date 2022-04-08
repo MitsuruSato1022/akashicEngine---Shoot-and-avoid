@@ -1,31 +1,15 @@
 # sample-introduction
 
-**sample-introduction** は JavaScript で Akashic のゲームを作る際のサンプルプロジェクトです。
+**sample-introduction** は JavaScript で Akashic のゲームを作る際のサンプルプロジェクトをもとに作成したオリジナルゲームです。
 
-## 利用方法
+## 遊び方
+バウンドする弾を相手にぶつけて最後まで生き残るゲームです。
+弾を撃った数が生き残った時ポイントとして獲得できますが、バウンドした弾は自分にも当たる為、状況をよく観ながら攻めと避けを切り替える必要があります。
 
-`sample-introduction` を利用するには Node.js が必要です。
+### 基本操作
 
-初回のみ、以下のコマンドを実行して、ビルドに必要なパッケージをインストールしてください。
-この作業は `sample-introduction` を新しく生成するごとに必要です。
-
-```sh
-npm install
-```
-
-### 動作確認方法
-
-以下のどちらかを実行後、ブラウザで `http://localhost:3300` にアクセスすることでゲームを実行できます。
-
-- `npm start`
-
-- `npm install -g @akashic/akashic-cli` 後、 `akashic serve .`
-
-### テンプレートの使い方
-
-#### javascript
-
-- `script/main.js` を編集することでサンプルプロジェクトの改変が可能です。
+`自機以外の場所をクリック` 自機を移動させる
+`自機をクリック`弾を発射
 
 ### アセットの更新方法
 
