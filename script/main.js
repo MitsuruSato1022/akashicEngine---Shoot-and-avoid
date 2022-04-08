@@ -1,5 +1,6 @@
 let characters = {}; // キャラクタ管理テーブル
 let balls = []; // ボール管理テーブル
+let deadPlayerNum = 0;
 function main(param) {
 	let scene = new g.Scene({
 		game: g.game,
@@ -248,7 +249,11 @@ function deadJudge(playerId) {
 			entity.destroy();
 			arrow.destroy();
 			characters[playerId].dead = true;
-			characters[playerId].point = 0;
+			// 死亡プレイヤー数が参加プレイヤー-1の時
+			if (deadPlayerNum < Object.keys(characters).length - 1) {
+				characters[playerId].point = 0;
+				deadPlayerNum++;
+			}
 		}
 	});
 }
